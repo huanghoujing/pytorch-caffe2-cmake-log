@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 4.8.5
+-- The CXX compiler identification is GNU 4.8.5
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Caffe2: Cannot find gflags automatically. Using legacy find.
+-- Found gflags: /usr/include  
+-- Caffe2: Found gflags  (include: /usr/include, library: /usr/lib64/libgflags.so)
+-- Caffe2: Cannot find glog automatically. Using legacy find.
+-- Found glog: /usr/include  
+-- Caffe2: Found glog (include: /usr/include, library: /usr/lib64/libglog.so)
+-- Caffe2: Found protobuf with new-style protobuf targets.
+-- Caffe2: Protobuf version 3.5.0
+-- Found CUDA: /home/users/houjing.huang/Software/cuda-8.0 (found suitable version "8.0", minimum required is "7.0") 
+-- Caffe2: CUDA detected: 8.0
+-- Caffe2: CUDA nvcc is: /home/users/houjing.huang/Software/cuda-8.0/bin/nvcc
+-- Caffe2: CUDA toolkit directory: /home/users/houjing.huang/Software/cuda-8.0
+-- Caffe2: Header version is: 8.0
+-- Found CUDNN: /home/users/houjing.huang/Software/cuda-8.0/include  
+-- Found cuDNN: v7.0.5  (include: /home/users/houjing.huang/Software/cuda-8.0/include, library: /home/users/houjing.huang/Software/cuda-8.0/lib64/libcudnn.so)
+-- Autodetected CUDA architecture(s): 5.2 5.2 5.2 5.2 
+-- Added CUDA NVCC flags for: -gencode;arch=compute_52,code=sm_52
+-- Summary:
+--   CMake version        : 3.12.0
+--   CMake command        : /mnt/data-1/data/houjing.huang/Software/cmake-3.12.0-Linux-x86_64/bin/cmake
+--   System name          : Linux
+--   C++ compiler         : /usr/bin/c++
+--   C++ compiler version : 4.8.5
+--   CXX flags            :  -std=c++11 -O2 -fPIC -Wno-narrowing
+--   Caffe2 version       : 0.8.2
+--   Caffe2 include path  : /home/users/houjing.huang/Software/pytorch/build/install/include
+--   Caffe2 found CUDA    : True
+--     CUDA version       : 8.0
+--     CuDNN version      : 7.0.5
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/users/houjing.huang/Project/DensePose/build

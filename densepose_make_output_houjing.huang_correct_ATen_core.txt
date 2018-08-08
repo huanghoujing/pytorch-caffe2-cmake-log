@@ -1,0 +1,55 @@
+[ 12%] Building CXX object CMakeFiles/caffe2_detectron_custom_ops.dir/detectron/ops/pool_points_interp.cc.o
+In file included from /usr/include/c++/4.8.2/ext/hash_set:60:0,
+                 from /usr/include/glog/stl_logging.h:54,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/logging_is_google_glog.h:16,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/logging.h:25,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/allocator.h:6,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/context.h:9,
+                 from /home/users/houjing.huang/Project/DensePose/detectron/ops/pool_points_interp.h:13,
+                 from /home/users/houjing.huang/Project/DensePose/detectron/ops/pool_points_interp.cc:10:
+/usr/include/c++/4.8.2/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^
+[ 25%] Building CXX object CMakeFiles/caffe2_detectron_custom_ops.dir/detectron/ops/zero_even_op.cc.o
+In file included from /usr/include/c++/4.8.2/ext/hash_set:60:0,
+                 from /usr/include/glog/stl_logging.h:54,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/logging_is_google_glog.h:16,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/logging.h:25,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/allocator.h:6,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/context.h:9,
+                 from /home/users/houjing.huang/Project/DensePose/detectron/ops/zero_even_op.h:12,
+                 from /home/users/houjing.huang/Project/DensePose/detectron/ops/zero_even_op.cc:9:
+/usr/include/c++/4.8.2/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^
+[ 37%] Linking CXX shared library libcaffe2_detectron_custom_ops.so
+[ 37%] Built target caffe2_detectron_custom_ops
+[ 50%] Building NVCC (Device) object CMakeFiles/caffe2_detectron_custom_ops_gpu.dir/detectron/ops/caffe2_detectron_custom_ops_gpu_generated_zero_even_op.cu.o
+[ 62%] Building NVCC (Device) object CMakeFiles/caffe2_detectron_custom_ops_gpu.dir/detectron/ops/caffe2_detectron_custom_ops_gpu_generated_pool_points_interp.cu.o
+Scanning dependencies of target caffe2_detectron_custom_ops_gpu
+[ 75%] Building CXX object CMakeFiles/caffe2_detectron_custom_ops_gpu.dir/detectron/ops/pool_points_interp.cc.o
+In file included from /usr/include/c++/4.8.2/ext/hash_set:60:0,
+                 from /usr/include/glog/stl_logging.h:54,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/logging_is_google_glog.h:16,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/logging.h:25,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/allocator.h:6,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/context.h:9,
+                 from /home/users/houjing.huang/Project/DensePose/detectron/ops/pool_points_interp.h:13,
+                 from /home/users/houjing.huang/Project/DensePose/detectron/ops/pool_points_interp.cc:10:
+/usr/include/c++/4.8.2/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^
+[ 87%] Building CXX object CMakeFiles/caffe2_detectron_custom_ops_gpu.dir/detectron/ops/zero_even_op.cc.o
+In file included from /usr/include/c++/4.8.2/ext/hash_set:60:0,
+                 from /usr/include/glog/stl_logging.h:54,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/logging_is_google_glog.h:16,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/logging.h:25,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/allocator.h:6,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/context.h:9,
+                 from /home/users/houjing.huang/Project/DensePose/detectron/ops/zero_even_op.h:12,
+                 from /home/users/houjing.huang/Project/DensePose/detectron/ops/zero_even_op.cc:9:
+/usr/include/c++/4.8.2/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^
+[100%] Linking CXX shared library libcaffe2_detectron_custom_ops_gpu.so
+[100%] Built target caffe2_detectron_custom_ops_gpu

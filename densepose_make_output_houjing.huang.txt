@@ -1,0 +1,13 @@
+Scanning dependencies of target caffe2_detectron_custom_ops
+[ 12%] Building CXX object CMakeFiles/caffe2_detectron_custom_ops.dir/detectron/ops/pool_points_interp.cc.o
+In file included from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/allocator.h:6:0,
+                 from /home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/context.h:9,
+                 from /home/users/houjing.huang/Project/DensePose/detectron/ops/pool_points_interp.h:13,
+                 from /home/users/houjing.huang/Project/DensePose/detectron/ops/pool_points_interp.cc:10:
+/home/users/houjing.huang/Software/pytorch/build/install/include/caffe2/core/logging.h:10:29: fatal error: ATen/core/Error.h: No such file or directory
+ #include <ATen/core/Error.h>
+                             ^
+compilation terminated.
+make[2]: *** [CMakeFiles/caffe2_detectron_custom_ops.dir/detectron/ops/pool_points_interp.cc.o] Error 1
+make[1]: *** [CMakeFiles/caffe2_detectron_custom_ops.dir/all] Error 2
+make: *** [all] Error 2
